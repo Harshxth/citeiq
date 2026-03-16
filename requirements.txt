@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+chromadb
+langchain
+langchain-groq
+langchain-community
+langgraph
+langsmith
+ragas
+streamlit
+sentence-transformers
+python-dotenv
+pypdf
+requests
+datasets
