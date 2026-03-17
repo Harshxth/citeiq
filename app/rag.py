@@ -1,11 +1,11 @@
 import os
 from dotenv import load_dotenv
-from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_groq import ChatGroq
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 load_dotenv()
 
@@ -34,14 +34,17 @@ def ingest_documents(file_paths: list[str]):
             loader = TextLoader(path)
         docs.extend(loader.load())
 
-    # Split into chunks
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=500,
         chunk_overlap=50
     )
     chunks = splitter.split_documents(docs)
 
-    # Store in ChromaDB
+    # Delete existing collection before re-ingesting
+    import shutil
+    if os.path.exists(CHROMA_PATH):
+        shutil.rmtree(CHROMA_PATH)
+
     vectorstore = Chroma.from_documents(
         documents=chunks,
         embedding=get_embeddings(),
