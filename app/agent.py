@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage
 from langgraph.graph import StateGraph, END
 from app.rag import retrieve, get_llm
+from app.eval import evaluate_answer
 
 load_dotenv()
 
@@ -17,6 +18,7 @@ class AgentState(TypedDict):
     sources: list[str]
     route: str
     retry_count: int
+    eval_scores: dict 
 
 # ── Node 1: Router ─────────────────────────────────────────────────
 # Decides: does this question need retrieval or can we answer directly?
@@ -55,11 +57,14 @@ def retrieve_node(state: AgentState) -> AgentState:
 # ── Node 3: Generate ───────────────────────────────────────────────
 def generate_node(state: AgentState) -> AgentState:
     llm = get_llm()
+    retry_count = state.get("retry_count", 0)
 
     if state.get("context"):
         context_text = "\n\n".join(state["context"])
+        # On retry, add explicit instruction to be more precise
+        retry_note = "\nBe very precise and only state what is explicitly in the context." if retry_count > 0 else ""
         prompt = f"""Answer the question based ONLY on the context below.
-If the answer is not in the context, say "I don't have enough information."
+If the answer is not in the context, say "I don't have enough information."{retry_note}
 
 Context:
 {context_text}
@@ -68,11 +73,35 @@ Question: {state['question']}
 
 Answer:"""
     else:
-        # Direct answer — no retrieval
         prompt = state["question"]
 
     response = llm.invoke([HumanMessage(content=prompt)])
-    return {**state, "answer": response.content}
+    return {**state, "answer": response.content, "retry_count": retry_count + 1}
+
+# ── Node 4: Evaluate ───────────────────────────────────────────────
+def evaluate_node(state: AgentState) -> AgentState:
+    # Only evaluate when we used retrieval
+    if state["route"] != "retrieve" or not state["context"]:
+        return {**state, "eval_scores": {"faithfulness": 1.0, "answer_relevancy": 1.0}}
+
+    scores = evaluate_answer(
+        question=state["question"],
+        answer=state["answer"],
+        contexts=state["context"]
+    )
+    return {**state, "eval_scores": scores}
+
+# ── Conditional edge: retry or finish ─────────────────────────────
+def should_retry(state: AgentState) -> Literal["generate", "end"]:
+    scores = state.get("eval_scores", {})
+    faithfulness = scores.get("faithfulness", 1.0)
+    relevancy = scores.get("answer_relevancy", 1.0)
+    retry_count = state.get("retry_count", 0)
+
+    if (faithfulness < 0.7 or relevancy < 0.7) and retry_count < 2:
+        print(f"Score too low, retrying... (attempt {retry_count + 1})")
+        return "generate"
+    return "end"
 
 # ── Conditional edge: where to go after router ─────────────────────
 def route_decision(state: AgentState) -> Literal["retrieve", "generate"]:
@@ -84,29 +113,28 @@ def route_decision(state: AgentState) -> Literal["retrieve", "generate"]:
 def build_graph():
     graph = StateGraph(AgentState)
 
-    # Add nodes
     graph.add_node("router", router_node)
     graph.add_node("retrieve", retrieve_node)
     graph.add_node("generate", generate_node)
+    graph.add_node("evaluate", evaluate_node)
 
-    # Entry point
     graph.set_entry_point("router")
 
-    # Conditional edge after router
     graph.add_conditional_edges(
         "router",
         route_decision,
-        {
-            "retrieve": "retrieve",
-            "generate": "generate"
-        }
+        {"retrieve": "retrieve", "generate": "generate"}
     )
 
-    # After retrieve → always generate
     graph.add_edge("retrieve", "generate")
+    graph.add_edge("generate", "evaluate")
 
-    # After generate → done
-    graph.add_edge("generate", END)
+    # Retry loop or finish
+    graph.add_conditional_edges(
+        "evaluate",
+        should_retry,
+        {"generate": "generate", "end": END}
+    )
 
     return graph.compile()
 
@@ -120,7 +148,8 @@ def run_agent(question: str) -> dict:
         answer="",
         sources=[],
         route="",
-        retry_count=0
+        retry_count=0,
+        eval_scores={}
     )
 
     result = graph.invoke(initial_state)
@@ -128,5 +157,7 @@ def run_agent(question: str) -> dict:
     return {
         "answer": result["answer"],
         "sources": result["sources"],
-        "route": result["route"]
+        "route": result["route"],
+        "eval_scores": result.get("eval_scores", {}),
+        "retry_count": result.get("retry_count", 0)
     }
