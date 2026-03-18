@@ -1,13 +1,19 @@
 from langchain_core.messages import HumanMessage
-from app.rag import get_llm
+from langchain_groq import ChatGroq
+import os
+
+def get_judge_llm():
+    return ChatGroq(
+        model="openai/gpt-oss-20b",
+        temperature=0.0,
+        api_key=os.getenv("GROQ_API_KEY")
+    )
 
 def evaluate_answer(question: str, answer: str, contexts: list[str]) -> dict:
     try:
-        llm = get_llm()
+        judge = get_judge_llm()  # ← named judge, not llm
         context_text = "\n\n".join(contexts)
 
-        # ── Faithfulness check ─────────────────────────────────────
-        # Is every claim in the answer supported by the context?
         faithfulness_prompt = f"""You are an evaluation assistant.
 
 Context:
@@ -24,11 +30,9 @@ Score from 0.0 to 1.0 where:
 
 Reply with ONLY a number between 0.0 and 1.0:"""
 
-        faith_response = llm.invoke([HumanMessage(content=faithfulness_prompt)])
+        faith_response = judge.invoke([HumanMessage(content=faithfulness_prompt)])
         faithfulness_score = float(faith_response.content.strip())
 
-        # ── Relevancy check ────────────────────────────────────────
-        # Does the answer actually address the question?
         relevancy_prompt = f"""You are an evaluation assistant.
 
 Question: {question}
@@ -43,14 +47,14 @@ Score from 0.0 to 1.0 where:
 
 Reply with ONLY a number between 0.0 and 1.0:"""
 
-        rel_response = llm.invoke([HumanMessage(content=relevancy_prompt)])
+        rel_response = judge.invoke([HumanMessage(content=relevancy_prompt)])
         relevancy_score = float(rel_response.content.strip())
 
         scores = {
             "faithfulness": round(faithfulness_score, 3),
             "answer_relevancy": round(relevancy_score, 3)
         }
-        print(f"Eval scores: {scores}")
+        print(f"Eval scores (judge: gpt-oss-20b): {scores}")
         return scores
 
     except Exception as e:
