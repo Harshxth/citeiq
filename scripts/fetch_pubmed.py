@@ -51,7 +51,7 @@ def main():
             all_abstracts.append(abstracts)
         time.sleep(0.5)
     
-    with open("data/pubmed_abstracts.txt", "w", encoding="utf-8") as f:
+    with open("data/pubmed_abstracts.txt", "w", encoding="utf-8", errors="ignore") as f:
         f.writelines(all_abstracts)
     
     print("Done. Saved to data/pubmed_abstracts.txt")

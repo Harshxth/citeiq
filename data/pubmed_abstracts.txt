@@ -222,49 +222,7 @@ conducted in the absence of any commercial or financial relationships that could
 be constructed as a potential conflict of interest.
 
 
-6. Expert Opin Emerg Drugs. 2016;21(1):27-37. doi: 10.1517/14728214.2016.1132700.
- Epub 2016 Jan 11.
-
-Emerging drugs for the treatment of sepsis.
-
-Heming N(1), Lamothe L(1), Ambrosi X(1), Annane D(1).
-
-Author information:
-(1)a General intensive care unit , Raymond Poincaré Hospital (APHP), Laboratory 
-of Inflammation and Infection U1173, University of Versailles SQY/INSERM , 
-Garches , France.
-
-INTRODUCTION: The incidence of sepsis, the systemic inflammatory response of the 
-host to an infectious insult, has steadily increased over past decades. This 
-trend is expected to continue. Sepsis is a leading cause of death and disability 
-worldwide. Treatment relies on antibiotics associated to source control and 
-supportive care. Major progress has been made in the understanding and overall 
-management of sepsis. However, there is no specific treatment for sepsis.
-AREAS COVERED: We searched PubMed and the ClinicalTrials.gov site for English 
-language reports of phase II and III clinical trials pertaining to the field of 
-sepsis. The current review provides a summary of promising candidate treatments 
-for sepsis. We broadly separated candidate drugs into three distinct categories: 
-Blood purification techniques, immunomodulatory drugs and treatments targeting 
-other systems including the heart, the endothelium or coagulation.
-EXPERT OPINION: Efforts to identify an efficient treatment for sepsis are 
-hampered by the broad definition of the syndrome associated with major 
-heterogeneity between patients affected by sepsis. The characterization of 
-homogeneous groups of patients, through biological or clinical markers is 
-unfortunately lacking. Current research remains active. Candidate drugs for 
-sepsis include hemoperfusion with polymyxin B coated fibre devices, modulation 
-of the immune system with treatments such as hydrocortisone, intravenous 
-immunoglobulins, mesenchymal stem cells, GM-CSF or interferon gamma. Candidate 
-drugs acting on the cardiovascular system include short acting beta 1 blockers, 
-levosimendan or selepressin. Finally, promising strategies, involving monoclonal 
-antibodies or protein antagonists, which selectively inhibit bacterial virulence 
-factors are being assessed at the bedside. A much awaited and needed specific 
-treatment for sepsis will hopefully soon emerge.
-
-DOI: 10.1517/14728214.2016.1132700
-PMID: 26751198 [Indexed for MEDLINE]
-
-
-7. Cell Rep Med. 2022 Nov 15;3(11):100817. doi: 10.1016/j.xcrm.2022.100817.
+6. Cell Rep Med. 2022 Nov 15;3(11):100817. doi: 10.1016/j.xcrm.2022.100817.
 
 Toward personalized immunotherapy in sepsis: The PROVIDE randomized clinical 
 trial.
@@ -358,6 +316,62 @@ and funding from the Horizon2020 Marie-Curie Project European Sepsis Academy
 2020 European Grants ImmunoSep and RISCinCOVID (granted to the Hellenic 
 Institute for the Study of Sepsis), and the Horizon Health European Grant 
 EPIC-CROWN-2 (granted to the Hellenic Institute for the Study of Sepsis).
+
+
+7. Crit Care. 2020 Jun 1;24(1):278. doi: 10.1186/s13054-020-02989-1.
+
+The gut microbiome's role in the development, maintenance, and outcomes of 
+sepsis.
+
+Adelman MW(1), Woodworth MH(2), Langelier C(3), Busch LM(4), Kempker JA(5), 
+Kraft CS(2)(6), Martin GS(5)(7).
+
+Author information:
+(1)Division of Infectious Diseases, Department of Medicine, Emory University 
+School of Medicine, 49 Jesse Hill Jr. Drive, Atlanta, GA, 30303, USA. 
+mwadelm@emory.edu.
+(2)Division of Infectious Diseases, Department of Medicine, Emory University 
+School of Medicine, 49 Jesse Hill Jr. Drive, Atlanta, GA, 30303, USA.
+(3)Division of Infectious Diseases, Department of Medicine, University of 
+California, San Francisco, CA, USA.
+(4)Critical Care Medicine Department, National Institutes of Health Clinical 
+Center, Bethesda, MD, USA.
+(5)Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Department 
+of Medicine, Emory University School of Medicine, Atlanta, GA, USA.
+(6)Department of Pathology and Laboratory Medicine, Emory University School of 
+Medicine, Atlanta, GA, USA.
+(7)Emory Critical Care Center, Emory Healthcare, Atlanta, GA, USA.
+
+The gut microbiome regulates a number of homeostatic mechanisms in the healthy 
+host including immune function and gut barrier protection. Loss of normal gut 
+microbial structure and function has been associated with diseases as diverse as 
+Clostridioides difficile infection, asthma, and epilepsy. Recent evidence has 
+also demonstrated a link between the gut microbiome and sepsis. In this review, 
+we focus on three key areas of the interaction between the gut microbiome and 
+sepsis. First, prior to sepsis onset, gut microbiome alteration increases sepsis 
+susceptibility through several mechanisms, including (a) allowing for expansion 
+of pathogenic intestinal bacteria, (b) priming the immune system for a robust 
+pro-inflammatory response, and (c) decreasing production of beneficial microbial 
+products such as short-chain fatty acids. Second, once sepsis is established, 
+gut microbiome disruption worsens and increases susceptibility to end-organ 
+dysfunction. Third, there is limited evidence that microbiome-based 
+therapeutics, including probiotics and selective digestive decontamination, may 
+decrease sepsis risk and improve sepsis outcomes in select patient populations, 
+but concerns about safety have limited uptake. Case reports of a different 
+microbiome-based therapy, fecal microbiota transplantation, have shown 
+correlation with gut microbial structure restoration and decreased inflammatory 
+response, but these results require further validation. While much of the 
+evidence linking the gut microbiome and sepsis has been established in 
+pre-clinical studies, clinical evidence is lacking in many areas. To address 
+this, we outline a potential research agenda for further investigating the 
+interaction between the gut microbiome and sepsis.
+
+DOI: 10.1186/s13054-020-02989-1
+PMCID: PMC7266132
+PMID: 32487252 [Indexed for MEDLINE]
+
+Conflict of interest statement: JAK has served as a consultant to Grifols, Inc. 
+CSK is on the scientific advisory board of Rebiotix.
 
 
 8. Burns. 2023 Nov;49(7):1487-1524. doi: 10.1016/j.burns.2023.05.003. Epub 2023
@@ -495,60 +509,46 @@ Chief Medical Officer for SeaStar Medical, Denver, Colorado. No other author has
 declared a conflict of interest related to the publication.
 
 
-9. Crit Care. 2020 Jun 1;24(1):278. doi: 10.1186/s13054-020-02989-1.
+9. Expert Opin Emerg Drugs. 2016;21(1):27-37. doi: 10.1517/14728214.2016.1132700.
+ Epub 2016 Jan 11.
 
-The gut microbiome's role in the development, maintenance, and outcomes of 
-sepsis.
+Emerging drugs for the treatment of sepsis.
 
-Adelman MW(1), Woodworth MH(2), Langelier C(3), Busch LM(4), Kempker JA(5), 
-Kraft CS(2)(6), Martin GS(5)(7).
+Heming N(1), Lamothe L(1), Ambrosi X(1), Annane D(1).
 
 Author information:
-(1)Division of Infectious Diseases, Department of Medicine, Emory University 
-School of Medicine, 49 Jesse Hill Jr. Drive, Atlanta, GA, 30303, USA. 
-mwadelm@emory.edu.
-(2)Division of Infectious Diseases, Department of Medicine, Emory University 
-School of Medicine, 49 Jesse Hill Jr. Drive, Atlanta, GA, 30303, USA.
-(3)Division of Infectious Diseases, Department of Medicine, University of 
-California, San Francisco, CA, USA.
-(4)Critical Care Medicine Department, National Institutes of Health Clinical 
-Center, Bethesda, MD, USA.
-(5)Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Department 
-of Medicine, Emory University School of Medicine, Atlanta, GA, USA.
-(6)Department of Pathology and Laboratory Medicine, Emory University School of 
-Medicine, Atlanta, GA, USA.
-(7)Emory Critical Care Center, Emory Healthcare, Atlanta, GA, USA.
+(1)a General intensive care unit , Raymond Poincaré Hospital (APHP), Laboratory 
+of Inflammation and Infection U1173, University of Versailles SQY/INSERM , 
+Garches , France.
 
-The gut microbiome regulates a number of homeostatic mechanisms in the healthy 
-host including immune function and gut barrier protection. Loss of normal gut 
-microbial structure and function has been associated with diseases as diverse as 
-Clostridioides difficile infection, asthma, and epilepsy. Recent evidence has 
-also demonstrated a link between the gut microbiome and sepsis. In this review, 
-we focus on three key areas of the interaction between the gut microbiome and 
-sepsis. First, prior to sepsis onset, gut microbiome alteration increases sepsis 
-susceptibility through several mechanisms, including (a) allowing for expansion 
-of pathogenic intestinal bacteria, (b) priming the immune system for a robust 
-pro-inflammatory response, and (c) decreasing production of beneficial microbial 
-products such as short-chain fatty acids. Second, once sepsis is established, 
-gut microbiome disruption worsens and increases susceptibility to end-organ 
-dysfunction. Third, there is limited evidence that microbiome-based 
-therapeutics, including probiotics and selective digestive decontamination, may 
-decrease sepsis risk and improve sepsis outcomes in select patient populations, 
-but concerns about safety have limited uptake. Case reports of a different 
-microbiome-based therapy, fecal microbiota transplantation, have shown 
-correlation with gut microbial structure restoration and decreased inflammatory 
-response, but these results require further validation. While much of the 
-evidence linking the gut microbiome and sepsis has been established in 
-pre-clinical studies, clinical evidence is lacking in many areas. To address 
-this, we outline a potential research agenda for further investigating the 
-interaction between the gut microbiome and sepsis.
+INTRODUCTION: The incidence of sepsis, the systemic inflammatory response of the 
+host to an infectious insult, has steadily increased over past decades. This 
+trend is expected to continue. Sepsis is a leading cause of death and disability 
+worldwide. Treatment relies on antibiotics associated to source control and 
+supportive care. Major progress has been made in the understanding and overall 
+management of sepsis. However, there is no specific treatment for sepsis.
+AREAS COVERED: We searched PubMed and the ClinicalTrials.gov site for English 
+language reports of phase II and III clinical trials pertaining to the field of 
+sepsis. The current review provides a summary of promising candidate treatments 
+for sepsis. We broadly separated candidate drugs into three distinct categories: 
+Blood purification techniques, immunomodulatory drugs and treatments targeting 
+other systems including the heart, the endothelium or coagulation.
+EXPERT OPINION: Efforts to identify an efficient treatment for sepsis are 
+hampered by the broad definition of the syndrome associated with major 
+heterogeneity between patients affected by sepsis. The characterization of 
+homogeneous groups of patients, through biological or clinical markers is 
+unfortunately lacking. Current research remains active. Candidate drugs for 
+sepsis include hemoperfusion with polymyxin B coated fibre devices, modulation 
+of the immune system with treatments such as hydrocortisone, intravenous 
+immunoglobulins, mesenchymal stem cells, GM-CSF or interferon gamma. Candidate 
+drugs acting on the cardiovascular system include short acting beta 1 blockers, 
+levosimendan or selepressin. Finally, promising strategies, involving monoclonal 
+antibodies or protein antagonists, which selectively inhibit bacterial virulence 
+factors are being assessed at the bedside. A much awaited and needed specific 
+treatment for sepsis will hopefully soon emerge.
 
-DOI: 10.1186/s13054-020-02989-1
-PMCID: PMC7266132
-PMID: 32487252 [Indexed for MEDLINE]
-
-Conflict of interest statement: JAK has served as a consultant to Grifols, Inc. 
-CSK is on the scientific advisory board of Rebiotix.
+DOI: 10.1517/14728214.2016.1132700
+PMID: 26751198 [Indexed for MEDLINE]
 
 
 10. Cochrane Database Syst Rev. 2021 May 8;5(5):CD013836. doi: 
@@ -988,7 +988,65 @@ DOI: 10.1007/s00134-019-05544-x
 PMID: 30741328 [Indexed for MEDLINE]
 
 
-8. Obstet Gynecol Clin North Am. 2016 Dec;43(4):659-678. doi: 
+8. Anesthesiol Clin. 2020 Mar;38(1):123-134. doi: 10.1016/j.anclin.2019.11.001.
+
+Perioperative Management of Patients with Sepsis and Septic Shock, Part II: 
+Ultrasound Support for Resuscitation.
+
+Bughrara N(1), Diaz-Gomez JL(2), Pustavoitau A(3).
+
+Author information:
+(1)Department of Anesthesiology, Albany Medical College, 47 New Scotland Avenue, 
+MC 131, Albany, NY 12208, USA; Department of Surgery, Albany Medical College, 47 
+New Scotland Avenue, MC 131, Albany, NY 12208, USA. Electronic address: 
+bughran@amc.edu.
+(2)Cardiovascular Critical Care, Professional Development, Education, and 
+Clinical Research, Critical Care Medicine, Division of Cardiovascular 
+Anesthesia, Texas Heart Institute - Baylor St. Luke's Medical Center, 6720 
+Bertner Avenue, Suite 0-520, Houston, TX 77030, USA; Critical Care 
+Echocardiography and Point of Care Ultrasound, Baylor College of Medicine, 
+Houston, TX, USA.
+(3)Division of Adult Critical Care Medicine, Johns Hopkins University School of 
+Medicine, 600 North Wolfe Street, Meyer 297, Baltimore, MD 21287, USA.
+
+Point-of-care ultrasound is capable of identifying the precise causes of 
+hemodynamic failure in patients with septic shock. Patients in shock demonstrate 
+complex alterations in their circulation, including changes in loading 
+conditions (preload and afterload), right and left ventricular function, and 
+development of obstructive physiology, and some of them have a burden of 
+underlying cardiac disease. Knowledge of underlying hemodynamic derangements in 
+such situations allows targeted interventions, that is, fluids, vasoactive, and 
+inotropic medications, to optimize patient's perfusion. One example of competing 
+goals involves a patient with hypertrophic "thick" left ventricle (LV), which is 
+easily identified using point-of-care ultrasound (POCUS). Such patients usually 
+have diastolic dysfunction and commonly require higher filling pressures (mainly 
+grade II and III diastolic dysfunction) to maintain adequate cardiac output. 
+They are vulnerable to the effects of hypovolemia with the potential for dynamic 
+LV outflow tract (LVOT) obstruction. The use of inotrope is harmful under these 
+circumstances and could lead to worsening of the obstructive physiology because 
+of systolic anterior motion of the mitral valve leaflet and mitral regurgitation 
+with rapid progression toward a cardiac arrest. Recognizing the increasingly 
+important role of POCUS in the perioperative arena, in this review, we highlight 
+how POCUS allows anesthesiologists to recognize and manage hemodynamic 
+derangements in patients with sepsis and septic shock. We provide a systematic 
+approach to the evaluation of this patient population using qualitative 
+assessment of myocardial performance, fluid responsiveness, and fluid tolerance. 
+Our approach is based on a limited number of ultrasound views: subcostal, 
+inferior vena cava (IVC), and lung views are obtained in rapid succession. A 
+combination of findings in these views is grouped into distinct hemodynamic 
+phenotypes, each of them requiring their own approach to management.
+
+Copyright © 2019 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.anclin.2019.11.001
+PMID: 32008647 [Indexed for MEDLINE]
+
+Conflict of interest statement: Disclosure N. Bughrara has nothing to disclose. 
+J.L. Diaz-Gomez is a consultant for Philips Healthcare. A. Pustavoitau is an 
+advisor and part-owner of Coaptech, LLC.
+
+
+9. Obstet Gynecol Clin North Am. 2016 Dec;43(4):659-678. doi: 
 10.1016/j.ogc.2016.07.010.
 
 Management of Sepsis and Septic Shock for the Obstetrician-Gynecologist.
@@ -1013,7 +1071,7 @@ DOI: 10.1016/j.ogc.2016.07.010
 PMID: 27816153 [Indexed for MEDLINE]
 
 
-9. Emerg Med Pract. 2025 Aug 1;27(8):1-28. Print 2025 Aug.
+10. Emerg Med Pract. 2025 Aug 1;27(8):1-28. Print 2025 Aug.
 
 Updates and controversies in the early management of sepsis and septic shock.
 
@@ -1042,48 +1100,6 @@ the management of sepsis, focusing on the current evidence, guidelines, and
 protocols.
 
 PMID: 40679861 [Indexed for MEDLINE]
-
-
-10. Rev Recent Clin Trials. 2018;13(4):243-251. doi: 
-10.2174/1574887113666180412165405.
-
-Role of Point-of-Care Ultrasonography for the Management of Sepsis and Septic 
-Shock.
-
-Shrestha GS(1), Srinivasan S(2).
-
-Author information:
-(1)Department of Anaesthesiology, Tribhuvan University Teaching Hospital, 
-Maharajgunj, Kathmandu, Nepal.
-(2)Department of Critical Care Medicine, Manipal Hospital, Dwarka, New Delhi, 
-India.
-
-BACKGROUND: Sepsis and septic shock remain a major cause of morbidity and 
-mortality globally. In recent years, the outcome of patients with sepsis and 
-septic shock has gradually improved, in part due to early recognition and timely 
-appropriate management. Bedside physical examination can be of limited value to 
-identify the source of infection and to decide appropriate management. Moreover, 
-the clinical status of these patients can change rapidly, as a part of disease 
-progression or in response to treatment or intervention.
-METHODS: Research articles, review papers and online contents related to 
-point-of-care ultrasound for the management of patients with sepsis and septic 
-shock were reviewed.
-RESULTS: Point-of-care ultrasonography can be a valuable bedside tool to rapidly 
-identify the potential source of infection and associated organ dysfunction. It 
-can also help to guide management to predict fluid responsiveness by assessing 
-the variation of inferior venacava with respiration, ventricular size and aortic 
-flow variation. Response to various interventions like a fluid challenge or 
-administration of inotropes can be assessed at the bedside. Point-of-care 
-ultrasound can also enhance safety and increase the success of bedside 
-procedures like central venous cannulation and drainage of pleural effusion.
-CONCLUSION: Bedside ultrasound can help to individualize management of patients 
-with sepsis and septic shock and may potentially improve patient outcome.
-
-Copyright© Bentham Science Publishers; For any queries, please email at 
-epub@benthamscience.org.
-
-DOI: 10.2174/1574887113666180412165405
-PMID: 29651944 [Indexed for MEDLINE]
 
 ============================================================
 TOPIC: DIABETES MELLITUS TYPE 2
@@ -2336,33 +2352,7 @@ PMCID: PMC4303026
 PMID: 25632396 [Indexed for MEDLINE]
 
 
-8. Crit Care Nurs Clin North Am. 2019 Sep;31(3):407-417. doi: 
-10.1016/j.cnc.2019.05.008. Epub 2019 Jun 11.
-
-Acute Kidney Injury Following Cardiothoracic Surgery.
-
-Arellano DL(1).
-
-Author information:
-(1)Department of Undergraduate Studies, Cizik School of Nursing, University of 
-Texas Health Science Center at Houston, Room # 775, 6901 Bertner Avenue, 
-Houston, TX 77030, USA; Division of Anesthesiology, Critical Care, and Pain 
-Medicine, Department of Critical Care, University of Texas MD Anderson Cancer 
-Center, Houston, TX, USA. Electronic address: Daniel.L.Arellano@uth.tmc.edu.
-
-This article reviews acute kidney injury following cardiothoracic surgery, 
-addressing the full spectrum of the perioperative environment including 
-preoperative, intraoperative, and postoperative factors for acute kidney injury. 
-Topics discussed include pathophysiology, risk prediction scoring, diagnosis, 
-prevention, treatment, and new directions for research.
-
-Copyright © 2019 Elsevier Inc. All rights reserved.
-
-DOI: 10.1016/j.cnc.2019.05.008
-PMID: 31351558 [Indexed for MEDLINE]
-
-
-9. Crit Care Nurs Clin North Am. 2022 Dec;34(4):431-441. doi: 
+8. Crit Care Nurs Clin North Am. 2022 Dec;34(4):431-441. doi: 
 10.1016/j.cnc.2022.08.004.
 
 Acute Kidney Injury in the Inpatient and Outpatient Setting.
@@ -2389,6 +2379,32 @@ Published by Elsevier Inc.
 
 DOI: 10.1016/j.cnc.2022.08.004
 PMID: 36336433 [Indexed for MEDLINE]
+
+
+9. Crit Care Nurs Clin North Am. 2019 Sep;31(3):407-417. doi: 
+10.1016/j.cnc.2019.05.008. Epub 2019 Jun 11.
+
+Acute Kidney Injury Following Cardiothoracic Surgery.
+
+Arellano DL(1).
+
+Author information:
+(1)Department of Undergraduate Studies, Cizik School of Nursing, University of 
+Texas Health Science Center at Houston, Room # 775, 6901 Bertner Avenue, 
+Houston, TX 77030, USA; Division of Anesthesiology, Critical Care, and Pain 
+Medicine, Department of Critical Care, University of Texas MD Anderson Cancer 
+Center, Houston, TX, USA. Electronic address: Daniel.L.Arellano@uth.tmc.edu.
+
+This article reviews acute kidney injury following cardiothoracic surgery, 
+addressing the full spectrum of the perioperative environment including 
+preoperative, intraoperative, and postoperative factors for acute kidney injury. 
+Topics discussed include pathophysiology, risk prediction scoring, diagnosis, 
+prevention, treatment, and new directions for research.
+
+Copyright © 2019 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.cnc.2019.05.008
+PMID: 31351558 [Indexed for MEDLINE]
 
 
 10. Crit Care. 2014 May 28;18(3):224. doi: 10.1186/cc13897.
@@ -3050,7 +3066,46 @@ Nordisk, Provention Bio, Amgen, and ReCor Medical. All other authors declare no
 competing interests.
 
 
-8. Eur J Heart Fail. 2016 Jun;18(6):716-26. doi: 10.1002/ejhf.531. Epub 2016 Apr 
+8. Heart Fail Rev. 2021 Jul;26(4):749-762. doi: 10.1007/s10741-020-10067-5. Epub 
+2021 Jan 12.
+
+Device-based treatment options for heart failure with preserved ejection 
+fraction.
+
+Miyagi C(1), Miyamoto T(1), Karimov JH(1), Starling RC(2)(3), Fukamachi K(4).
+
+Author information:
+(1)Department of Biomedical Engineering, Lerner Research Institute, Cleveland 
+Clinic, 9500 Euclid Avenue, Cleveland, OH, 44195, USA.
+(2)Department of Cardiovascular Medicine, Miller Family Heart and Vascular 
+Institute, Cleveland Clinic, Cleveland, OH, USA.
+(3)Kaufman Center for Heart Failure Treatment and Recovery, Cleveland Clinic, 
+Cleveland, OH, USA.
+(4)Department of Biomedical Engineering, Lerner Research Institute, Cleveland 
+Clinic, 9500 Euclid Avenue, Cleveland, OH, 44195, USA. fukamak@ccf.org.
+
+Heart failure with preserved ejection fraction (HFpEF) is a syndrome with an 
+unfavorable prognosis, and the number of the patients continues to grow. Because 
+there is no effective therapy established as a standard, including 
+pharmacological treatments, a movement to develop and evaluate device-based 
+therapies is an important emerging area in the treatment of HFpEF patients. Many 
+devices have set their target to reduce the left atrial pressure or pulmonary 
+capillary wedge pressure because they are strongly related to the symptoms and 
+prognosis of HFpEF, but the methodology to achieve it varies based on the 
+devices. In this review, we summarize and categorize these devices into the 
+following: (1) interatrial shunt devices, (2) left ventricle expander, (3) 
+electrical therapy, (4) left ventricular assist devices, and (5) mechanical 
+circulatory support devices under development. Here, we describe the features 
+and specifications of device-based therapies currently under development and 
+those at more advanced stages of preclinical testing. Advantages and limitations 
+of these technologies, with insights on their safety and feasibility for HFpEF 
+patients, are described.
+
+DOI: 10.1007/s10741-020-10067-5
+PMID: 33432418 [Indexed for MEDLINE]
+
+
+9. Eur J Heart Fail. 2016 Jun;18(6):716-26. doi: 10.1002/ejhf.531. Epub 2016 Apr 
 29.
 
 A systems BIOlogy Study to TAilored Treatment in Chronic Heart Failure: 
@@ -3119,7 +3174,7 @@ DOI: 10.1002/ejhf.531
 PMID: 27126231 [Indexed for MEDLINE]
 
 
-9. Crit Care Nurs Clin North Am. 2022 Jun;34(2):157-164. doi: 
+10. Crit Care Nurs Clin North Am. 2022 Jun;34(2):157-164. doi: 
 10.1016/j.cnc.2022.02.005. Epub 2022 Apr 28.
 
 Depression and Heart Failure Assessment, Treatment, and Interventions to Improve 
@@ -3147,109 +3202,6 @@ Copyright © 2022 Elsevier Inc. All rights reserved.
 
 DOI: 10.1016/j.cnc.2022.02.005
 PMID: 35660229 [Indexed for MEDLINE]
-
-
-10. JACC Heart Fail. 2025 Jan;13(1):14-27. doi: 10.1016/j.jchf.2024.09.017.
-
-Diuretic Potentiation Strategies in Acute Heart Failure.
-
-Siddiqi TJ(1), Packer M(2), Ezekowitz JA(3), Fonarow GC(4), Greene SJ(5), 
-Kittleson M(6), Khan MS(7), Mentz RJ(5), Testani J(8), Voors AA(9), Butler 
-J(10).
-
-Author information:
-(1)Department of Internal Medicine, Baylor University Medical Center, Dallas, 
-Texas, USA.
-(2)Baylor University Medical Center, Dallas, Texas, USA; Imperial College, 
-London, United Kingdom.
-(3)Canadian VIGOUR Centre, University of Alberta, Edmonton, Alberta, Canada.
-(4)Division of Cardiology, University of California-Los Angeles, Los Angeles, 
-California, USA.
-(5)Duke Clinical Research Institute, Durham, North Carolina, USA; Division of 
-Cardiology, Duke University School of Medicine, Durham, North Carolina, USA.
-(6)Department of Cardiology, Smidt Heart Institute, Los Angeles, California, 
-USA.
-(7)Baylor College of Medicine, Temple, Texas, USA; Baylor Scott and White Heart 
-Hospital, Plano, Texas, USA; Baylor Scott and White Research Institute, Baylor 
-Scott and White Health, Dallas, Texas, USA.
-(8)Section of Cardiovascular Medicine, Department of Internal Medicine, Yale 
-University School of Medicine, New Haven, Connecticut, USA; Baylor Scott and 
-White Research Institute, Dallas, Texas, USA.
-(9)University of Groningen Department of Cardiology, University Medical Center 
-Groningen, Groningen, the Netherlands.
-(10)Department of Medicine, University of Mississippi Medical Center, Jackson, 
-Mississippi, USA; Baylor Scott and White Research Institute, Baylor Scott and 
-White Health, Dallas, Texas, USA. Electronic address: 
-javed.butler@bswhealth.org.
-
-Several trials have evaluated diuretic-based strategies to improve symptoms and 
-outcomes in patients with acute heart failure (AHF). The authors sought to 
-summarize the effect of different combination strategies on symptoms, physical 
-signs, physiological variables, and outcomes in patients with AHF. Twelve trials 
-were identified that assessed the addition of thiazide diuretics, sodium-glucose 
-cotransporter 2 inhibitors, mineralocorticoid receptor antagonists, vasopressin 
-receptor antagonists, carbonic anhydrase inhibitors, or loop diuretic 
-intensification to conventional therapy for AHF. The trials evaluated short-term 
-markers of congestion and symptoms, and none were powered for clinical outcomes. 
-Short-term responses (such as relief from dyspnea, physical signs of congestion, 
-and weight change) varied greatly across studies; all diuretic strategies were 
-accompanied by short-term increases in serum creatinine and did not demonstrate 
-benefits on mortality or recurrent heart failure events. The available evidence 
-suggests that intensification of loop diuretic agents produces relief of 
-physical signs of decongestion, but the importance of different strategies for 
-short-term decongestion strategy for health status and long-term outcomes has 
-not been established.
-
-Copyright © 2025 American College of Cardiology Foundation. Published by 
-Elsevier Inc. All rights reserved.
-
-DOI: 10.1016/j.jchf.2024.09.017
-PMID: 39779178 [Indexed for MEDLINE]
-
-Conflict of interest statement: Funding Support and Author Disclosures Dr Packer 
-has received consulting fees from 89bio, Abbvie, Altimmune, Amgen, Ardelyx, 
-AstraZeneca, Boehringer Ingelheim, Caladrius, Casana, CSL Behring, Cytokinetics, 
-Lilly, Moderna, Novartis, Reata, Regeneron, Relypsa, and Salamandra, and is a 
-Trial Executive Committee member of the Boehringer Ingelheim and Eli Lilly and 
-Company Diabetes Alliance. Dr Ezekowitz has received research grants from 
-American Regent, Amgen, AstraZeneca, Bayer, Bristol-Myers Squibb/Pfizer, eko.ai, 
-US2.ai, Merck, Novartis, Otsuka, Sanofi, and Servier, and consulting fees from 
-American Regent, Amgen, AstraZeneca, Bayer, Bristol-Myers Squibb/Pfizer, Merck, 
-Novartis, Otsuka, Sanofi, and Servier. Dr Fonarow has served as a consultant for 
-Abbott, Amgen, AstraZeneca, Bayer, Cytokinetics, Eli Lilly, Johnson and Johnson, 
-Medtronic, Merck, Novartis, and Pfizer. Dr Greene has received research support 
-from the Duke University Department of Medicine Chair’s Research Award, American 
-Heart Association, Amgen, AstraZeneca, Boehringer Ingelheim, Bristol Myers 
-Squibb, Cytokinetics, Merck, Novartis, Otsuka, Pfizer, and Sanofi; has served on 
-advisory boards or as a consultant for Amgen, AstraZeneca, Bayer, Boehringer 
-Ingelheim, Bristol Myers Squibb, Corteria Pharmaceuticals, CSL Vifor, 
-Cytokinetics, Eli Lilly, Lexicon, Merck, Novo Nordisk, Otsuka, Roche 
-Diagnostics, Sanofi, scPharmaceuticals, Tricog Health, and Urovant 
-Pharmaceuticals; and has received speaker fees from Bayer, Boehringer Ingelheim, 
-Cytokinetics, Lexicon, and Roche Diagnostics. Dr Mentz has received research 
-support and honoraria from Abbott, American Regent, Amgen, AstraZeneca, Bayer, 
-Boehringer Ingelheim/Eli Lilly, Boston Scientific, Cytokinetics, Fast 
-BioMedical, Gilead, Innolife, Medtronic, Merck, Novartis, Relypsa, Respicardia, 
-Roche, Sanofi, Vifor, Windtree Therapeutics, and Zoll. Dr Testani has received 
-fees from 3ive labs, Bayer, Bristol-Myers Squibb, AstraZeneca, Novartis, 
-Cardionomic, MagentaMed, Reprieve, Fire1, W.L. Gore and Associates, Sanofi, 
-Sequana Medical, Otsuka, Abbott, Merck, Windtree Therapeutics, Lexicon 
-Pharmaceuticals, Precardia, Relypsa, Regeneron, Becton Dickinson, Edwards 
-Lifesciences, and Lilly, and holds a patent for treatment of diuretic resistance 
-issued to Yale and Corvidia Therapeutics, a patent for methods for measuring 
-renalase issued to Yale, and a patent for treatment of diuretic resistance 
-pending with Reprieve. Dr Voors has received research support and/or has been a 
-consultant for Amgen, AstraZeneca, Bayer, Boehringer Ingelheim, Cytokinetics, 
-Merck, Myokardia, Novo Nordisk, Novartis, and Roche Diagnostics. Dr Butler has 
-received payment or honoraria for lectures, presentations, Speakers Bureau, 
-manuscript writing, or educational events from Abbott, Adrenomed, Amgen, Applied 
-Therapeutics, Array, AstraZeneca, Bayer, BerlinCures, Cardior, CVRx, Foundry, G3 
-Pharma, Imbria, Impulse Dynamics, Innolife, Janssen, LivaNova, Luitpold, 
-Medtronic, Merck, Novartis, Novo Nordisk, Relypsa, Roche, Sanofi, Sequana 
-Medical, Occlutech, and Vifor, and is a Trial Executive Committee member of 
-Boehringer Ingelheim and Eli Lilly and Company Diabetes Alliance. All other 
-authors have no relationships relevant to the contents of this paper to 
-disclose.
 
 ============================================================
 TOPIC: PNEUMONIA CLINICAL
@@ -3619,93 +3571,7 @@ DOI: 10.1002/jgc4.1879
 PMID: 38344862 [Indexed for MEDLINE]
 
 
-9. Trop Med Int Health. 2019 Jul;24(7):922-931. doi: 10.1111/tmi.13242. Epub 2019
- May 14.
-
-Day clinic vs. hospital care of pneumonia and severe malnutrition in children 
-under five: a randomised trial.
-
-Ashraf H(1), Alam NH(1), Sultana M(1), Jahan SA(1), Begum N(1), Farzana S(1), 
-Chisti MJ(1), Kamal M(2), Shamsuzzaman A(3), Ahmed T(1), Khan JAM(1)(4), Fuchs 
-GJ(5), Duke T(6), Gyr N(7).
-
-Author information:
-(1)icddr,b, International Centre for Diarrhoeal Disease Research, Bangladesh.
-(2)Radda Maternal and Child Health Family Planning Centre, Dhaka, Bangladesh.
-(3)Institute of Child Health and Shishu, Sasthya Foundation Hospital, Dhaka, 
-Bangladesh.
-(4)Department of Clinical Sciences, Liverpool School of Tropical Medicine, UK.
-(5)Department of Pediatrics, University of Kentucky College of Medicine, 
-Lexington, Kentucky, USA.
-(6)Centre for International Child Health, University of Melbourne, Melbourne, 
-Australia.
-(7)Faculty of Medicine, University of Basel, Basel, Switzerland.
-
-OBJECTIVES: To evaluate the clinical outcomes and costs of managing pneumonia 
-and severe malnutrition in a day clinic (DC) management model (outpatient) vs. 
-hospital care (inpatient).
-METHODS: Randomised clinical trial where children aged 2 months to 5 years with 
-pneumonia and severe malnutrition were randomly allocated to DC or inpatient 
-hospital care. We used block randomisation of variable length from 8 to 20 and 
-produced computer-generated random numbers that were assigned to one of the two 
-interventions. Successful management was defined as resolution of clinical signs 
-of pneumonia and being discharged from the model of care (DC or hospital) 
-without need for referral to a hospital (DC), or referral to another hospital. 
-All the children in both DC and hospital received intramuscular ceftriaxone, 
-daily nutrition support and micronutrients.
-RESULTS: Four hundred and seventy children were randomly assigned to either DC 
-or hospital care. Successful management was achieved for 184 of 235 (78.3%) by 
-DC alone, vs. 201 of 235 (85.5%) by hospital inpatient care [RR (95% CI) = 0.79 
-(0.65-0.97), P = 0.02]. During 6 months of follow-up, 30/235 (12.8%) in the DC 
-group and 36/235 (15.3%) required readmission to hospital in the hospital care 
-group [RR (95% CI) = 0.89 (0.67-1.18), P = 0.21]. The average overall healthcare 
-and societal cost was 34% lower in DC (US$ 188 ± 11.7) than in hospital (US$ 
-285 ± 13.6) (P < 0.001), and costs for households were 33% lower.
-CONCLUSIONS: There was a 7% greater probability of successful management of 
-pneumonia and severe malnutrition when inpatient hospital care rather than the 
-outpatient day clinic care was the initial method of care. However, where timely 
-referral mechanisms were in place, 94% of children with pneumonia and severe 
-malnutrition were successfully managed initially in a day clinic, and costs were 
-substantially lower than with hospital admission.
-
-Publisher: OBJECTIFS: Evaluer les résultats cliniques et les coûts de la prise 
-en charge de la pneumonie et de la malnutrition sévère dans un modèle de prise 
-en charge en clinique de jour (CJ) (patients ambulatoires) par rapport à des 
-soins hospitaliers (patients hospitalisés). MÉTHODES: Essai clinique randomisé 
-où les enfants âgés de 2 mois à 5 ans avec une pneumonie et une malnutrition 
-sévère ont été répartis de façon aléatoire en CJ ou à des soins hospitaliers. 
-Nous avons utilisé la randomisation par blocs de longueur variable de 8 à 20 et 
-avons généré des nombres aléatoires par ordinateur qui ont été attribués à l'une 
-des deux interventions. Une prise en charge réussie a été définie comme la 
-résolution des signes cliniques de pneumonie et la sortie du modèle de soins (CJ 
-ou hospitalisation) sans nécessiter un transfert à un hôpital (CJ), ni à un 
-autre hôpital. Tous les enfants du bras CJ et du bras soins hospitaliers ont 
-reçu de la ceftriaxone par voie intramusculaire, un soutien nutritionnel 
-quotidien et des micronutriments. RÉSULTATS: 470 enfants ont été assignés 
-aléatoirement soit à des soins en CJ ou hospitaliers. Une prise en charge 
-réussie a été obtenue pour 184 patients sur 235 (78,3%) en CJ seule contre 201 
-sur 235 (85,5%) en soins hospitaliers [RR (IC95%) = 0,79 (0,65 - 0,97), p = 
-0,02]. Au cours des six mois de suivi, 30/235 (12,8%) du groupe CJ et 36/235 
-(15,3%) du groupe soins hospitaliers ont nécessité une réadmission à l'hôpital 
-[RR (IC95%) = 0,89 (0,67 - 1,18), p = 0,21]. Le coût moyen global des soins de 
-santé et pour la société était de 34% plus faible dans le groupe CJ (188 ± 11,7 
-USD) que dans le groupe soins hospitaliers (285 ± 13,6 USD) (p < 0,001) et les 
-coûts pour les ménages étaient de 33% inférieurs.
-CONCLUSIONS: La probabilité d'une prise en charge réussie de la pneumonie et de 
-la malnutrition sévère était 7% plus élevée lorsque les soins hospitaliers 
-plutôt que les soins en CJ étaient les moyens initiaux. Cependant, là où des 
-mécanismes de référence rapides étaient en place, 94% des enfants atteints de 
-pneumonie et de malnutrition sévère ont été pris en charge avec succès dans une 
-clinique de jour et les coûts étaient nettement inférieurs à ceux de soins 
-hospitaliers.
-
-© 2019 John Wiley & Sons Ltd.
-
-DOI: 10.1111/tmi.13242
-PMID: 31046165 [Indexed for MEDLINE]
-
-
-10. Diabetes Technol Ther. 2023 Feb;25(S1):S2-S14. doi: 10.1089/dia.2023.2501.
+9. Diabetes Technol Ther. 2023 Feb;25(S1):S2-S14. doi: 10.1089/dia.2023.2501.
 
 Virtual Clinics for Diabetes Care.
 
@@ -3716,3 +3582,28 @@ Author information:
 
 DOI: 10.1089/dia.2023.2501
 PMID: 36802190 [Indexed for MEDLINE]
+
+
+10. Mayo Clin Proc. 2022 Dec;97(12):2184-2185. doi: 10.1016/j.mayocp.2022.10.016.
+ Epub 2022 Oct 31.
+
+Ambulatory Remote Patient Monitoring Beyond COVID-19: Engagement and Sustainment 
+Considerations.
+
+Gunderson M(1), Melton GB(2).
+
+Author information:
+(1)Department of Surgery, University of Minnesota, Minneapolis, MN; Institute 
+for Health Informatics, University of Minnesota, Minneapolis, MN.
+(2)Department of Surgery, University of Minnesota, Minneapolis, MN; Institute 
+for Health Informatics, University of Minnesota, Minneapolis, MN; Center for 
+Learning Health Systems Sciences, University of Minnesota, Minneapolis, MN. 
+Electronic address: gmelton@umn.edu.
+
+Comment on
+    Mayo Clin Proc. 2022 Dec;97(12):2215-2225. doi: 
+10.1016/j.mayocp.2022.08.015.
+
+DOI: 10.1016/j.mayocp.2022.10.016
+PMCID: PMC9618433
+PMID: 36464459 [Indexed for MEDLINE]

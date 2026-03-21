@@ -66,9 +66,15 @@ def query(request: QueryRequest):
     if not result["answer"]:
         raise HTTPException(status_code=404, detail="No answer generated")
 
+    # Clean up source paths — remove data/ prefix
+    sources = [
+        s.replace("data/", "").replace("data\\", "") 
+        for s in result["sources"]
+    ]
+
     return QueryResponse(
         answer=result["answer"],
-        sources=result["sources"],
+        sources=sources,
         eval_scores=result.get("eval_scores", {}),
         retry_count=result.get("retry_count", 0),
         route=result.get("route", "")

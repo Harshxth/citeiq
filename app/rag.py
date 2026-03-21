@@ -1,3 +1,4 @@
+from importlib.resources import path
 import os
 from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -31,7 +32,7 @@ def ingest_documents(file_paths: list[str]):
         if path.endswith(".pdf"):
             loader = PyPDFLoader(path)
         else:
-            loader = TextLoader(path)
+            loader = TextLoader(path, encoding="utf-8", autodetect_encoding=True)
         docs.extend(loader.load())
 
     splitter = RecursiveCharacterTextSplitter(
