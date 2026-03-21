@@ -1,6 +1,0 @@
-Sepsis is a life-threatening condition caused by the body's response to an infection.
-The immune system releases chemicals into the bloodstream to fight infection, but these
-chemicals can cause widespread inflammation. Symptoms of sepsis include fever, chills,
-rapid breathing, rapid heart rate, and confusion. Early detection and treatment with
-antibiotics and fluids is critical for survival. Septic shock is the most severe form
-of sepsis and can cause organ failure and death.

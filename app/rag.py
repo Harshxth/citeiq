@@ -57,7 +57,7 @@ def ingest_documents(file_paths: list[str]):
     return vectorstore
 
 # ── Retrieval ──────────────────────────────────────────────────────
-def retrieve(query: str, k: int = 4) -> list[Document]:
+def retrieve(query: str, k: int = 8) -> list[Document]:
     vectorstore = get_vectorstore()
     retriever = vectorstore.as_retriever(search_kwargs={"k": k})
     return retriever.invoke(query)

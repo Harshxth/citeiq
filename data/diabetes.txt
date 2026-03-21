@@ -1,22 +1,164 @@
-TYPE 2 DIABETES MELLITUS - CLINICAL MANAGEMENT
+TYPE 2 DIABETES MELLITUS - COMPREHENSIVE CLINICAL REFERENCE
+Based on American Diabetes Association Standards of Care 2024
 
-Diagnosis:
-Type 2 diabetes is diagnosed by fasting plasma glucose of 126 mg/dL or greater, 2-hour plasma glucose of 200 mg/dL or greater during OGTT, HbA1c of 6.5% or greater, or random plasma glucose of 200 mg/dL or greater with symptoms. Prediabetes is defined as fasting glucose 100-125 mg/dL or HbA1c 5.7-6.4%.
+SECTION 1: DEFINITIONS AND CLASSIFICATION
 
-Glycemic Targets:
-HbA1c target below 7% for most non-pregnant adults. Less stringent target below 8% for patients with limited life expectancy, advanced complications, or extensive comorbidities. More stringent target below 6.5% may be appropriate for selected patients if achievable without hypoglycemia. Fasting glucose target 80-130 mg/dL, peak postmeal glucose below 180 mg/dL.
+What is diabetes mellitus?
+Diabetes mellitus is a group of metabolic diseases characterized by hyperglycemia resulting from defects in insulin secretion, insulin action, or both. Chronic hyperglycemia causes damage to multiple organ systems including eyes, kidneys, nerves, heart, and blood vessels. Type 2 diabetes accounts for 90 to 95% of all diabetes cases.
 
-First-Line Therapy:
-Metformin remains the preferred initial pharmacologic agent for type 2 diabetes due to its efficacy, safety, tolerability, and low cost. It reduces hepatic glucose production and improves insulin sensitivity. Start at 500mg once or twice daily with meals and titrate to 2000mg daily. Contraindicated in eGFR below 30 mL/min/1.73m2.
+What is type 2 diabetes?
+Type 2 diabetes is characterized by progressive insulin secretory defect on the background of insulin resistance. Unlike type 1 diabetes, insulin deficiency is relative rather than absolute, and endogenous insulin production is preserved, at least initially. Over time, beta cell function progressively declines requiring escalating pharmacotherapy.
 
-Cardiovascular Disease Consideration:
-For patients with established cardiovascular disease or high cardiovascular risk, SGLT2 inhibitors (empagliflozin, canagliflozin, dapagliflozin) or GLP-1 receptor agonists (liraglutide, semaglutide, dulaglutide) with proven cardiovascular benefit are recommended regardless of HbA1c. These agents reduce major adverse cardiovascular events and cardiovascular mortality.
+What is type 1 diabetes?
+Type 1 diabetes is an autoimmune condition resulting in absolute insulin deficiency due to immune-mediated destruction of pancreatic beta cells. It requires insulin therapy for survival. It typically presents in childhood or young adulthood but can occur at any age. C-peptide levels are low or undetectable and autoantibodies including GAD65, IA-2, and ZnT8 are usually present.
 
-Diabetic Complications Screening:
-Annual comprehensive foot exam for all patients. Dilated eye exam at diagnosis and annually. Urine albumin-to-creatinine ratio annually. Serum creatinine and eGFR annually. Blood pressure monitored at every visit, target below 130/80 mmHg. Statin therapy for patients over 40 years with cardiovascular risk factors.
+What is prediabetes?
+Prediabetes is defined as impaired fasting glucose with fasting plasma glucose 100 to 125 mg/dL, impaired glucose tolerance with 2-hour glucose 140 to 199 mg/dL on OGTT, or HbA1c 5.7 to 6.4%. Prediabetes represents a high-risk state for developing diabetes and cardiovascular disease. Lifestyle intervention can reduce progression to diabetes by 58%.
 
-Hypoglycemia Management:
-Mild to moderate hypoglycemia (glucose below 70 mg/dL) should be treated with 15-20g of fast-acting carbohydrate. Recheck glucose after 15 minutes and repeat treatment if still below 70 mg/dL. Once glucose normalizes, eat a meal or snack. Severe hypoglycemia requiring assistance should be treated with glucagon or intravenous dextrose.
+What is MODY?
+Maturity-onset diabetes of the young is a monogenic form of diabetes caused by mutations in single genes affecting beta cell function. It typically presents before age 25 in multiple generations. Common forms include GCK-MODY with mild stable hyperglycemia and HNF1A-MODY which is sensitive to sulfonylureas. Genetic testing is required for diagnosis.
 
-Diabetic Ketoacidosis:
-DKA is characterized by hyperglycemia above 250 mg/dL, metabolic acidosis with pH below 7.3, and ketosis. Treatment includes aggressive IV fluid replacement starting with normal saline, insulin infusion, potassium replacement, and frequent monitoring of electrolytes. Identify and treat the precipitating cause. Transition to subcutaneous insulin when anion gap normalizes and patient can eat.
+SECTION 2: EPIDEMIOLOGY
+
+How common is type 2 diabetes?
+Type 2 diabetes affects 37 million Americans representing 11% of the US population. An additional 96 million Americans have prediabetes. Globally, 537 million adults have diabetes. Prevalence is increasing due to aging populations, obesity, and sedentary lifestyles. Type 2 diabetes is the seventh leading cause of death in the United States.
+
+What are the risk factors for type 2 diabetes?
+Major risk factors include obesity with BMI above 25, physical inactivity, first-degree relative with diabetes, high-risk ethnicity including African American, Hispanic, Native American, Asian American, and Pacific Islander, history of gestational diabetes, prediabetes, hypertension, dyslipidemia with HDL below 35 or triglycerides above 250, polycystic ovary syndrome, and history of cardiovascular disease.
+
+SECTION 3: DIAGNOSIS
+
+How is type 2 diabetes diagnosed?
+Diabetes is diagnosed by any of four criteria: fasting plasma glucose of 126 mg/dL or greater after 8 hours of fasting, 2-hour plasma glucose of 200 mg/dL or greater during a 75g oral glucose tolerance test, HbA1c of 6.5% or greater using a NGSP-certified method, or random plasma glucose of 200 mg/dL or greater with classic symptoms of hyperglycemia. In the absence of unequivocal hyperglycemia, results must be confirmed by repeat testing.
+
+What symptoms suggest new-onset diabetes?
+Classic symptoms of hyperglycemia include polyuria due to osmotic diuresis, polydipsia from dehydration, polyphagia from cellular starvation despite hyperglycemia, unexplained weight loss from catabolism, blurred vision from osmotic changes in the lens, recurrent infections particularly candidal and urinary tract infections, slow wound healing, and fatigue. Many patients with type 2 diabetes are asymptomatic at diagnosis.
+
+What is HbA1c and how is it interpreted?
+HbA1c reflects average blood glucose over the preceding 2 to 3 months. It represents the percentage of hemoglobin with glucose attached. Normal is below 5.7%, prediabetes 5.7 to 6.4%, and diabetes 6.5% or greater. Each 1% change in HbA1c corresponds to approximately 28 mg/dL change in average glucose. HbA1c can be falsely low in hemolytic anemia and falsely high in iron deficiency anemia.
+
+SECTION 4: GLYCEMIC TARGETS
+
+What are the glycemic targets for most adults with diabetes?
+The ADA recommends HbA1c below 7% for most non-pregnant adults. Fasting and preprandial glucose target is 80 to 130 mg/dL. Peak postprandial glucose target is below 180 mg/dL. Time in range target is above 70% of readings between 70 and 180 mg/dL for those using continuous glucose monitoring.
+
+When are less stringent glycemic targets appropriate?
+Less stringent HbA1c targets of below 8% are appropriate for patients with history of severe hypoglycemia, limited life expectancy, advanced microvascular or macrovascular complications, extensive comorbid conditions, or long-standing diabetes where the goal is difficult to achieve despite appropriate therapy and patient engagement.
+
+When are more stringent glycemic targets appropriate?
+More stringent HbA1c targets of below 6.5% may be appropriate for selected patients with short disease duration, long life expectancy, no significant cardiovascular disease, and when targets can be achieved without significant hypoglycemia or adverse effects. This applies particularly to younger patients early in their disease course.
+
+SECTION 5: PHARMACOLOGIC TREATMENT
+
+What is the first-line pharmacologic treatment for type 2 diabetes?
+Metformin remains the preferred initial pharmacologic agent for type 2 diabetes in the absence of contraindications. It reduces hepatic glucose production through AMPK activation, improves insulin sensitivity, and modestly reduces postprandial glucose. It is weight neutral to modestly weight reducing, has a low risk of hypoglycemia, is inexpensive, and has a long safety record. Starting dose is 500 mg once or twice daily with meals titrated to 2000 mg daily.
+
+What are the contraindications to metformin?
+Metformin is contraindicated with eGFR below 30 mL per min per 1.73 m2 due to risk of lactic acidosis. It should be held before contrast procedures and surgery and restarted after confirming renal function is stable. It should be used with caution with eGFR 30 to 45. It should be stopped in conditions associated with hypoxia including heart failure exacerbation, respiratory failure, and sepsis.
+
+What are SGLT2 inhibitors and when are they used?
+Sodium-glucose cotransporter 2 inhibitors including empagliflozin, canagliflozin, dapagliflozin, and ertugliflozin reduce glucose reabsorption in the proximal tubule causing glucosuria. They reduce HbA1c by 0.5 to 1%, cause weight loss of 2 to 3 kg, and reduce blood pressure. They have proven cardiovascular and renal benefits independent of glucose lowering. They are recommended for patients with type 2 diabetes and established cardiovascular disease, heart failure, or chronic kidney disease.
+
+What cardiovascular benefits do SGLT2 inhibitors provide?
+SGLT2 inhibitors with proven cardiovascular benefit include empagliflozin which reduced cardiovascular death by 38% in EMPA-REG OUTCOME, canagliflozin which reduced major adverse cardiovascular events in CANVAS, and dapagliflozin which reduced cardiovascular death and worsening heart failure in DAPA-HF. These agents reduce hospitalizations for heart failure, slow progression of diabetic kidney disease, and reduce all-cause mortality in high-risk patients.
+
+What are the side effects of SGLT2 inhibitors?
+Common side effects include genital mycotic infections affecting up to 10% of patients, urinary tract infections, polyuria, and volume depletion particularly in elderly patients and those on diuretics. Rare but serious adverse effects include diabetic ketoacidosis which can occur with near-normal glucose levels, Fournier's gangrene, and lower extremity amputations with canagliflozin. SGLT2 inhibitors should be held perioperatively and during illness.
+
+What are GLP-1 receptor agonists and when are they used?
+Glucagon-like peptide 1 receptor agonists including semaglutide, liraglutide, dulaglutide, exenatide, and lixisenatide mimic the effects of endogenous GLP-1 by stimulating glucose-dependent insulin secretion, suppressing glucagon, slowing gastric emptying, and reducing appetite. They reduce HbA1c by 1 to 1.5%, cause weight loss of 3 to 5 kg, and several have proven cardiovascular benefits.
+
+What cardiovascular benefits do GLP-1 receptor agonists provide?
+GLP-1 receptor agonists with proven cardiovascular benefit include liraglutide which reduced cardiovascular death by 22% in LEADER, semaglutide which reduced major adverse cardiovascular events in SUSTAIN-6, and dulaglutide which reduced cardiovascular events in REWIND. These agents reduce stroke, non-fatal MI, and cardiovascular death in patients with established cardiovascular disease or high risk.
+
+What are the side effects of GLP-1 receptor agonists?
+Common side effects include nausea, vomiting, and diarrhea particularly when initiating therapy or escalating doses. Gradual dose titration reduces gastrointestinal side effects. They are associated with reduced appetite and weight loss. Rare adverse effects include pancreatitis and cholelithiasis. Injectable formulations carry a theoretical risk of thyroid C-cell tumors based on rodent data. They are contraindicated in patients with personal or family history of medullary thyroid carcinoma or MEN2.
+
+What are DPP-4 inhibitors?
+Dipeptidyl peptidase 4 inhibitors including sitagliptin, saxagliptin, alogliptin, and linagliptin work by blocking the enzyme that degrades endogenous GLP-1, increasing active GLP-1 levels. They reduce HbA1c by 0.5 to 0.8%, are weight neutral, and have low risk of hypoglycemia. They are generally well tolerated. Saxagliptin and alogliptin are associated with increased hospitalization for heart failure. Linagliptin is preferred in renal impairment as it does not require dose adjustment.
+
+When is insulin required in type 2 diabetes?
+Insulin is indicated when HbA1c remains above target despite maximal oral and injectable therapy, in the presence of symptomatic hyperglycemia, during acute illness or hospitalization, perioperatively, in pregnancy, and when specific contraindications preclude use of other agents. Insulin should not be delayed when indicated due to concerns about weight gain or hypoglycemia as these risks are manageable.
+
+SECTION 6: HYPOGLYCEMIA
+
+What is hypoglycemia and how is it classified?
+Hypoglycemia is defined as blood glucose below 70 mg/dL. Level 1 hypoglycemia is glucose 54 to 69 mg/dL and should prompt treatment. Level 2 hypoglycemia is glucose below 54 mg/dL and represents clinically significant hypoglycemia. Level 3 hypoglycemia is severe hypoglycemia associated with cognitive impairment requiring external assistance.
+
+What are the symptoms of hypoglycemia?
+Neurogenic symptoms from autonomic activation include shakiness, trembling, diaphoresis, palpitations, anxiety, and hunger. These typically occur first as glucose falls. Neuroglycopenic symptoms from brain glucose deprivation include confusion, difficulty concentrating, slurred speech, blurred vision, loss of consciousness, and seizures. Some patients have hypoglycemia unawareness and do not experience neurogenic symptoms.
+
+How is hypoglycemia treated?
+Mild to moderate hypoglycemia is treated with the rule of 15: 15 grams of fast-acting carbohydrates such as 4 ounces of juice or regular soda, 3 to 4 glucose tablets, or glucose gel. Recheck glucose after 15 minutes and repeat treatment if still below 70 mg/dL. Once glucose normalizes, consume a meal or snack to prevent recurrence. Severe hypoglycemia requiring external assistance is treated with 1 mg glucagon intramuscularly or intranasally, or intravenous dextrose 25g in a healthcare setting.
+
+What causes hypoglycemia in diabetes?
+Common causes include insulin or sulfonylurea excess, missed or delayed meals, unexpected physical activity, alcohol consumption which inhibits gluconeogenesis, renal or hepatic impairment reducing drug clearance, and drug interactions. Hypoglycemia unawareness develops after recurrent hypoglycemic episodes and is associated with blunted counter-regulatory hormone responses.
+
+SECTION 7: HYPERGLYCEMIC EMERGENCIES
+
+What is diabetic ketoacidosis?
+Diabetic ketoacidosis is a life-threatening emergency characterized by the triad of hyperglycemia usually above 250 mg/dL, metabolic acidosis with pH below 7.3 or bicarbonate below 18 mEq/L, and ketonemia or ketonuria. It results from absolute or relative insulin deficiency combined with excess counter-regulatory hormones. It is more common in type 1 diabetes but can occur in type 2 particularly with precipitating illness.
+
+What are the symptoms of DKA?
+Symptoms of DKA develop over 24 to 48 hours and include polyuria, polydipsia, nausea, vomiting, abdominal pain, Kussmaul respirations which are deep and rapid as compensation for metabolic acidosis, fruity breath from acetone, dehydration, and altered mental status. Precipitating factors include infection, missed insulin doses, new onset diabetes, and intercurrent illness.
+
+How is DKA treated?
+DKA treatment involves four components. Fluid resuscitation with 1 to 2 liters of normal saline in the first hour then 250 to 500 mL per hour guided by hemodynamics. Insulin infusion starting at 0.1 units per kg per hour, not starting until potassium is above 3.5 mEq/L. Potassium replacement aggressively as insulin drives potassium intracellularly. Identification and treatment of the precipitating cause. Monitor glucose hourly and electrolytes every 2 to 4 hours.
+
+What is hyperosmolar hyperglycemic state?
+Hyperosmolar hyperglycemic state is a life-threatening emergency characterized by profound hyperglycemia above 600 mg/dL, hyperosmolarity above 320 mOsm/kg, severe dehydration, and absence of significant ketoacidosis. It occurs predominantly in type 2 diabetes often in elderly patients. Mortality is 10 to 20%, higher than DKA. Treatment emphasizes aggressive fluid replacement, insulin, and electrolyte management.
+
+SECTION 8: CARDIOVASCULAR RISK MANAGEMENT
+
+What is the relationship between diabetes and cardiovascular disease?
+Cardiovascular disease is the leading cause of morbidity and mortality in type 2 diabetes. Adults with diabetes have 2 to 4 times the cardiovascular risk compared to those without diabetes. Diabetes independently accelerates atherosclerosis and is considered a cardiovascular risk equivalent. Comprehensive cardiovascular risk factor management is essential in all patients with diabetes.
+
+What blood pressure target is recommended in diabetes?
+Blood pressure target for most patients with diabetes is below 130/80 mmHg. More intensive targets may be considered in high-risk individuals with established cardiovascular disease. ACE inhibitors or ARBs are first-line antihypertensive therapy in patients with diabetes particularly in the presence of albuminuria or chronic kidney disease due to renal protective effects beyond blood pressure lowering.
+
+What lipid targets are recommended in diabetes?
+High-intensity statin therapy is recommended for patients with diabetes aged 40 to 75 with cardiovascular risk factors targeting LDL reduction of 50% or more from baseline. For patients with established cardiovascular disease, LDL target is below 70 mg/dL. Ezetimibe and PCSK9 inhibitors can be added when LDL target is not achieved with maximum tolerated statin. Non-HDL cholesterol and apolipoprotein B are alternative treatment targets.
+
+SECTION 9: MICROVASCULAR COMPLICATIONS
+
+What is diabetic nephropathy?
+Diabetic nephropathy is the leading cause of end-stage renal disease in developed countries. It progresses through stages from microalbuminuria to macroalbuminuria to declining GFR. Urine albumin-to-creatinine ratio should be measured annually. ACE inhibitors or ARBs reduce proteinuria and slow progression. SGLT2 inhibitors significantly reduce kidney disease progression in patients with type 2 diabetes and CKD.
+
+What is diabetic retinopathy?
+Diabetic retinopathy is the leading cause of new blindness in working-age adults. It progresses from non-proliferative to proliferative retinopathy and macular edema. All patients with type 2 diabetes should have a dilated eye exam at diagnosis and at least annually thereafter. Tight glycemic and blood pressure control reduce the risk of retinopathy development and progression. Treatment options include anti-VEGF injections, laser photocoagulation, and vitreoretinal surgery.
+
+What is diabetic neuropathy?
+Diabetic peripheral neuropathy affects up to 50% of patients with long-standing diabetes. It typically presents as a distal symmetric polyneuropathy with numbness, tingling, and pain in a stocking-glove distribution. Annual 10-gram monofilament testing and vibration testing screen for loss of protective sensation. Tight glycemic control reduces the risk of developing neuropathy. Treatments for painful neuropathy include pregabalin, duloxetine, gabapentin, and topical agents.
+
+What is diabetic foot disease?
+Diabetic foot disease results from the combination of peripheral neuropathy, peripheral arterial disease, and impaired immune function. It is the leading cause of non-traumatic lower extremity amputation. Annual comprehensive foot examination should include assessment for neuropathy, peripheral arterial disease, deformity, and skin integrity. Patient education about foot care is essential. Multidisciplinary foot care teams reduce amputation rates.
+
+SECTION 10: LIFESTYLE MANAGEMENT
+
+What dietary approaches are recommended in type 2 diabetes?
+No single dietary pattern is universally recommended. Evidence-based approaches include Mediterranean diet, DASH diet, plant-based diets, and low-carbohydrate diets. Key principles include emphasizing non-starchy vegetables, whole grains over refined carbohydrates, lean proteins, healthy fats, and minimizing added sugars, refined grains, and processed foods. Reducing overall caloric intake to achieve weight loss is beneficial in overweight patients.
+
+What is the role of physical activity in type 2 diabetes?
+Regular physical activity improves insulin sensitivity, lowers HbA1c by 0.5 to 1%, promotes weight loss, and reduces cardiovascular risk. Recommendations include 150 minutes per week of moderate-intensity aerobic activity, resistance training at least 2 days per week, and breaking up prolonged sitting every 30 minutes. Exercise lowers blood glucose during and after activity and may require medication adjustments to prevent hypoglycemia.
+
+What is the evidence for weight loss in type 2 diabetes?
+Intensive lifestyle intervention achieving 5 to 10% weight loss significantly improves glycemic control and cardiovascular risk factors. Weight loss of 15% or more, achievable with bariatric surgery or GLP-1 receptor agonists, can result in diabetes remission in some patients. The Look AHEAD trial demonstrated that intensive lifestyle intervention reduced weight and improved cardiovascular risk factors over 10 years.
+
+SECTION 11: MONITORING
+
+What self-monitoring of blood glucose is recommended?
+Self-monitoring frequency depends on treatment regimen and clinical needs. Patients on insulin require more frequent monitoring including before meals and at bedtime. Patients on oral medications may benefit from less frequent monitoring but should check when ill or when symptoms suggest hypoglycemia. Continuous glucose monitoring provides real-time glucose data and trend arrows, reducing hypoglycemia and improving time in range.
+
+What laboratory monitoring is recommended in type 2 diabetes?
+HbA1c should be measured every 3 months until stable and at goal, then every 6 months. Annual monitoring includes urine albumin-to-creatinine ratio, serum creatinine and eGFR, fasting lipid panel, thyroid function, liver function tests in patients on thiazolidinediones, and complete blood count in patients on metformin to screen for B12 deficiency. Eye exams and foot exams should be performed at least annually.
+
+SECTION 12: SPECIAL POPULATIONS
+
+How is diabetes managed in pregnancy?
+Gestational diabetes is diagnosed at 24 to 28 weeks gestation using a 75g OGTT. Management begins with medical nutrition therapy and physical activity. Insulin is the preferred pharmacologic agent as it does not cross the placenta. Metformin and glyburide may be used but have limitations. Women with gestational diabetes have a 50% lifetime risk of developing type 2 diabetes and should be screened postpartum and regularly thereafter.
+
+How is diabetes managed in hospitalized patients?
+Hyperglycemia is common in hospitalized patients both with and without known diabetes. Target blood glucose is 140 to 180 mg/dL for most critically ill and non-critically ill patients. Basal-bolus insulin regimens are preferred over sliding scale insulin alone. Oral agents and non-insulin injectables are generally held during hospitalization. Transition to outpatient regimen should be planned before discharge.
+
+How is diabetes managed in older adults?
+Glycemic targets should be individualized based on health status, life expectancy, and risk of hypoglycemia. Healthy older adults may have similar targets as younger adults. Patients with multiple comorbidities, functional limitations, or dementia have less stringent targets of HbA1c below 8 to 8.5%. Agents with low hypoglycemia risk are preferred. Polypharmacy and renal function require careful medication selection and dose adjustment.
