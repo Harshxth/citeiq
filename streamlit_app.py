@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000"
+API_URL = "https://harshxth-citeiq.hf.space"
 
 st.set_page_config(
     page_title="CiteIQ",
