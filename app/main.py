@@ -1,4 +1,5 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from app.agent import run_agent
 from app.rag import ingest_documents
@@ -6,6 +7,15 @@ import shutil
 import os
 
 app = FastAPI(title="CiteIQ", version="1.0")
+
+# ── CORS ───────────────────────────────────────────────────────────
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # ── Request/Response models ────────────────────────────────────────
 class QueryRequest(BaseModel):
