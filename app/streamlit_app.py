@@ -71,7 +71,7 @@ for key, val in [
     ("total_queries", 0),
     ("total_retries", 0),
     ("faith_scores", []),
-    ("indexed_docs", ["sepsis.txt", "diabetes.txt", "hypertension.txt", "pubmed_abstracts.txt"])
+    ("indexed_docs", ["sepsis.txt", "diabetes.txt", "hypertension.txt"])
 ]:
     if key not in st.session_state:
         st.session_state[key] = val
