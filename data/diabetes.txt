@@ -1,0 +1,22 @@
+TYPE 2 DIABETES MELLITUS - CLINICAL MANAGEMENT
+
+Diagnosis:
+Type 2 diabetes is diagnosed by fasting plasma glucose of 126 mg/dL or greater, 2-hour plasma glucose of 200 mg/dL or greater during OGTT, HbA1c of 6.5% or greater, or random plasma glucose of 200 mg/dL or greater with symptoms. Prediabetes is defined as fasting glucose 100-125 mg/dL or HbA1c 5.7-6.4%.
+
+Glycemic Targets:
+HbA1c target below 7% for most non-pregnant adults. Less stringent target below 8% for patients with limited life expectancy, advanced complications, or extensive comorbidities. More stringent target below 6.5% may be appropriate for selected patients if achievable without hypoglycemia. Fasting glucose target 80-130 mg/dL, peak postmeal glucose below 180 mg/dL.
+
+First-Line Therapy:
+Metformin remains the preferred initial pharmacologic agent for type 2 diabetes due to its efficacy, safety, tolerability, and low cost. It reduces hepatic glucose production and improves insulin sensitivity. Start at 500mg once or twice daily with meals and titrate to 2000mg daily. Contraindicated in eGFR below 30 mL/min/1.73m2.
+
+Cardiovascular Disease Consideration:
+For patients with established cardiovascular disease or high cardiovascular risk, SGLT2 inhibitors (empagliflozin, canagliflozin, dapagliflozin) or GLP-1 receptor agonists (liraglutide, semaglutide, dulaglutide) with proven cardiovascular benefit are recommended regardless of HbA1c. These agents reduce major adverse cardiovascular events and cardiovascular mortality.
+
+Diabetic Complications Screening:
+Annual comprehensive foot exam for all patients. Dilated eye exam at diagnosis and annually. Urine albumin-to-creatinine ratio annually. Serum creatinine and eGFR annually. Blood pressure monitored at every visit, target below 130/80 mmHg. Statin therapy for patients over 40 years with cardiovascular risk factors.
+
+Hypoglycemia Management:
+Mild to moderate hypoglycemia (glucose below 70 mg/dL) should be treated with 15-20g of fast-acting carbohydrate. Recheck glucose after 15 minutes and repeat treatment if still below 70 mg/dL. Once glucose normalizes, eat a meal or snack. Severe hypoglycemia requiring assistance should be treated with glucagon or intravenous dextrose.
+
+Diabetic Ketoacidosis:
+DKA is characterized by hyperglycemia above 250 mg/dL, metabolic acidosis with pH below 7.3, and ketosis. Treatment includes aggressive IV fluid replacement starting with normal saline, insulin infusion, potassium replacement, and frequent monitoring of electrolytes. Identify and treat the precipitating cause. Transition to subcutaneous insulin when anion gap normalizes and patient can eat.

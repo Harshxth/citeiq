@@ -1,0 +1,27 @@
+SEPSIS AND SEPTIC SHOCK - CLINICAL GUIDELINES
+
+Definition and Criteria:
+Sepsis is defined as life-threatening organ dysfunction caused by a dysregulated host response to infection (Sepsis-3 definition). Organ dysfunction is identified by an increase in the Sequential Organ Failure Assessment (SOFA) score of 2 points or more. The quick SOFA (qSOFA) criteria include altered mental status, respiratory rate of 22/min or greater, and systolic blood pressure of 100 mmHg or less.
+
+Septic shock is a subset of sepsis with circulatory and cellular/metabolic dysfunction associated with a higher risk of mortality. It is identified by vasopressor requirement to maintain MAP of 65 mmHg or greater and serum lactate greater than 2 mmol/L despite adequate fluid resuscitation. Hospital mortality exceeds 40% in septic shock.
+
+Early Warning Signs:
+Early recognition is critical. Warning signs include fever above 38.3°C or hypothermia below 36°C, heart rate above 90 beats per minute, respiratory rate above 20 breaths per minute, altered mental status, hyperglycemia in non-diabetic patients, and elevated white blood cell count above 12,000 or below 4,000. Skin changes including mottling, pallor, or prolonged capillary refill indicate poor perfusion.
+
+The Hour-1 Bundle:
+The Surviving Sepsis Campaign recommends completing the following within 1 hour of sepsis recognition: measure lactate level and remeasure if initial lactate is greater than 2 mmol/L, obtain blood cultures before administering antibiotics, administer broad-spectrum antibiotics, begin 30 mL/kg crystalloid for hypotension or lactate of 4 mmol/L or greater, apply vasopressors if patient is hypotensive during or after fluid resuscitation to maintain MAP of 65 mmHg or greater.
+
+Antibiotic Therapy:
+Empiric broad-spectrum antibiotics should be initiated within 1 hour of sepsis recognition. The choice depends on the suspected source of infection. For community-acquired sepsis, piperacillin-tazobactam or a carbapenem combined with vancomycin is commonly used. Duration should be reassessed daily and de-escalated based on culture results. Procalcitonin levels can guide antibiotic de-escalation and discontinuation.
+
+Fluid Resuscitation:
+Crystalloids are the first-line resuscitation fluid. Initial resuscitation should include at least 30 mL/kg of intravenous crystalloid within the first 3 hours. Further fluid administration should be guided by frequent reassessment of hemodynamic status. Albumin may be considered in patients requiring substantial amounts of crystalloids. Avoid hydroxyethyl starches due to increased risk of acute kidney injury and mortality.
+
+Vasopressors:
+Norepinephrine is the first-choice vasopressor. Vasopressin up to 0.03 units/minute can be added to norepinephrine to raise MAP or decrease norepinephrine dosage. Dopamine is an alternative to norepinephrine only in selected patients with low risk of tachyarrhythmias. Epinephrine may be added when an additional agent is needed to maintain adequate MAP.
+
+Mechanical Ventilation:
+For sepsis-induced respiratory failure, use low tidal volume ventilation of 6 mL/kg predicted body weight. Target plateau pressures of 30 cmH2O or less. Higher PEEP is recommended for moderate to severe ARDS. Prone positioning for more than 12 hours per day is recommended in severe ARDS with PaO2/FiO2 below 150.
+
+Monitoring and Targets:
+Target MAP of 65 mmHg or greater. Monitor urine output targeting 0.5 mL/kg/hr. Monitor lactate clearance as a resuscitation endpoint. Use continuous ECG monitoring. Measure central venous pressure. Repeat lactate measurement if initial lactate is elevated. Daily assessment of readiness to wean vasopressors and ventilator support.
