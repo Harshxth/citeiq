@@ -1,5 +1,7 @@
 import streamlit as st
 import requests
+import base64
+
 
 API_URL = "http://localhost:8000"
 
@@ -60,16 +62,22 @@ with sidebar:
 
     if uploaded_files and st.button("Index documents", use_container_width=True):
         with st.spinner("Indexing..."):
-            files = [("files", (f.name, f.read(), f.type)) for f in uploaded_files]
-            try:
-                response = requests.post(f"{API_URL}/ingest", files=files)
-                if response.status_code == 200:
-                    st.success(f"Indexed {len(uploaded_files)} file(s)")
-                else:
-                    st.error("Indexing failed")
-            except Exception as e:
-                st.error(f"Error: {e}")
-
+            for file in uploaded_files:
+                try:
+                    content_b64 = base64.b64encode(file.read()).decode("utf-8")
+                    response = requests.post(
+                        f"{API_URL}/ingest",
+                        json={"filename": file.name, "content_b64": content_b64},
+                        timeout=120
+                    )
+                    st.write(f"Status: {response.status_code}")
+                    st.write(f"Response: {response.text}")
+                    if response.status_code == 200:
+                        st.success(f"Indexed {file.name}")
+                    else:
+                        st.error(f"Failed: {response.text}")
+                except Exception as e:
+                    st.error(f"Exception: {type(e).__name__}: {e}")
     st.divider()
 
     # Live metrics

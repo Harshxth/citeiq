@@ -40,10 +40,12 @@ def ingest_documents(file_paths: list[str]):
     )
     chunks = splitter.split_documents(docs)
 
-    # Delete existing collection before re-ingesting
-    import shutil
-    if os.path.exists(CHROMA_PATH):
-        shutil.rmtree(CHROMA_PATH)
+    # Use ChromaDB's built-in reset instead of deleting files directly
+    vectorstore = Chroma(
+        persist_directory=CHROMA_PATH,
+        embedding_function=get_embeddings()
+    )
+    vectorstore.delete_collection()
 
     vectorstore = Chroma.from_documents(
         documents=chunks,
