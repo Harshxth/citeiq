@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from pydantic import BaseModel
-from app.rag import ingest_documents, retrieve, get_llm
-from langchain_core.messages import HumanMessage
+from app.agent import run_agent
+from app.rag import ingest_documents
 import shutil
 import os
 
@@ -14,6 +14,9 @@ class QueryRequest(BaseModel):
 class QueryResponse(BaseModel):
     answer: str
     sources: list[str]
+    eval_scores: dict = {}
+    retry_count: int = 0
+    route: str = ""
 
 # ── Health check ───────────────────────────────────────────────────
 @app.get("/")
@@ -39,29 +42,15 @@ async def ingest(files: list[UploadFile] = File(...)):
 # ── Query endpoint ─────────────────────────────────────────────────
 @app.post("/query", response_model=QueryResponse)
 def query(request: QueryRequest):
-    # Step 1: retrieve relevant chunks
-    chunks = retrieve(request.question)
+    result = run_agent(request.question)
 
-    if not chunks:
-        raise HTTPException(status_code=404, detail="No relevant documents found")
+    if not result["answer"]:
+        raise HTTPException(status_code=404, detail="No answer generated")
 
-    # Step 2: build context from chunks
-    context = "\n\n".join([chunk.page_content for chunk in chunks])
-    sources = [chunk.metadata.get("source", "unknown") for chunk in chunks]
-
-    # Step 3: build prompt
-    prompt = f"""You are a helpful assistant. Answer the question based ONLY on the context below.
-If the answer is not in the context, say "I don't have enough information to answer this."
-
-Context:
-{context}
-
-Question: {request.question}
-
-Answer:"""
-
-    # Step 4: call Groq
-    llm = get_llm()
-    response = llm.invoke([HumanMessage(content=prompt)])
-
-    return QueryResponse(answer=response.content, sources=list(set(sources)))
+    return QueryResponse(
+        answer=result["answer"],
+        sources=result["sources"],
+        eval_scores=result.get("eval_scores", {}),
+        retry_count=result.get("retry_count", 0),
+        route=result.get("route", "")
+    )
