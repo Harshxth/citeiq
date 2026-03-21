@@ -1,14 +1,21 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from contextlib import asynccontextmanager
 from app.agent import run_agent
 from app.rag import ingest_documents
+from app.ingest_on_startup import startup_ingest
 import shutil
 import os
+import base64
 
-app = FastAPI(title="CiteIQ", version="1.0")
+@asynccontextmanager
+async def lifespan(app):
+    startup_ingest()
+    yield
 
-# ── CORS ───────────────────────────────────────────────────────────
+app = FastAPI(title="CiteIQ", version="1.0", lifespan=lifespan)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -28,6 +35,10 @@ class QueryResponse(BaseModel):
     retry_count: int = 0
     route: str = ""
 
+class IngestRequest(BaseModel):
+    filename: str
+    content_b64: str
+
 # ── Health check ───────────────────────────────────────────────────
 @app.get("/")
 def root():
@@ -35,19 +46,17 @@ def root():
 
 # ── Upload + ingest documents ──────────────────────────────────────
 @app.post("/ingest")
-async def ingest(files: list[UploadFile] = File(...)):
-    saved_paths = []
-
+async def ingest(request: IngestRequest):
     os.makedirs("data", exist_ok=True)
 
-    for file in files:
-        path = f"data/{file.filename}"
-        with open(path, "wb") as f:
-            shutil.copyfileobj(file.file, f)
-        saved_paths.append(path)
+    file_bytes = base64.b64decode(request.content_b64)
+    path = f"data/{request.filename}"
 
-    ingest_documents(saved_paths)
-    return {"message": f"Ingested {len(saved_paths)} file(s) successfully"}
+    with open(path, "wb") as f:
+        f.write(file_bytes)
+
+    ingest_documents([path])
+    return {"message": f"Ingested {request.filename} successfully"}
 
 # ── Query endpoint ─────────────────────────────────────────────────
 @app.post("/query", response_model=QueryResponse)
